@@ -8,4 +8,5 @@ email = st.text_input("Enter your email")
 pwd = st.text_input("Enter your password", type="password")
 
 # Add a button with the caption "Register"
-st.button("Register")
+if(st.button("Register")):
+  st.write("Thank you!")
